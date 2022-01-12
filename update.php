@@ -12,7 +12,7 @@ if (mysqli_num_rows($op) == 1) {
     header('Location: indextask6.php'); 
 }
   $file = $data['image'];
-  echo $file ;
+  //echo $file ;
 //update data from your form and set it in DB
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
    include 'valid.php';
